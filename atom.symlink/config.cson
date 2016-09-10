@@ -1,12 +1,45 @@
 "*":
+  "atom-beautify":
+    _general: {}
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    cpp: {}
+    cs: {}
+    css: {}
+    d: {}
+    fortran: {}
+    general:
+      _analyticsUserId: "c96971fd-e344-4289-a037-437c2495f639"
+    gherkin: {}
+    html: {}
+    java: {}
+    js: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    ruby: {}
+    rust: {}
+    sql: {}
+    vala: {}
+  "atom-material-ui":
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
   core:
+    closeEmptyWindows: false
     disabledPackages: [
+      "atom-ternjs"
+      "file-icons"
+      "wrap-guide"
       "background-tips"
       "exception-reporting"
       "metrics"
     ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -15,28 +48,31 @@
       "tmp"
       "vendor"
     ]
+    projectHome: "/Users/deenoize/Sites"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
-    fontSize: 15
+    fontSize: 12
     invisibles: {}
+    preferredLineLength: 100
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "linter-eslint":
-    useGlobalEslint: true
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    softWrap: true
+  "exception-reporting":
+    userId: "f26b7a03-81fb-9d6b-09bc-c217b28f08d7"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "sync-settings":
+    _analyticsUserId: "d49cd5f1-f192-48f0-b7b2-212c1a4e036b"
+    _lastBackupHash: "97c8e917ee6696c916d66e9754fa49c4b8a9f91b"
+    gistId: "eb47997f491ea81c1bdb"
+    personalAccessToken: "83cce4c7203a0966815e6f6d594a5ca8e7f02aa1"
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1473521261
   welcome:
     showOnStartup: false
