@@ -36,9 +36,6 @@
       "atom-ternjs"
       "file-icons"
       "wrap-guide"
-      "background-tips"
-      "exception-reporting"
-      "metrics"
     ]
     ignoredNames: [
       ".bundle"
@@ -69,7 +66,10 @@
     _analyticsUserId: "d49cd5f1-f192-48f0-b7b2-212c1a4e036b"
     _lastBackupHash: "97c8e917ee6696c916d66e9754fa49c4b8a9f91b"
     gistId: "eb47997f491ea81c1bdb"
-    personalAccessToken: "83cce4c7203a0966815e6f6d594a5ca8e7f02aa1"
+    personalAccessToken: "b7846d6b0272d37f58621841db25008dbf6e25e0"
+  "terminal-plus":
+    core:
+      mapTerminalsTo: "Folder"
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
