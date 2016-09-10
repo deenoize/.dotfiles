@@ -1,4 +1,4 @@
-# deenoize does dotfiles (forked from holman's dotfiles)
+# my dotfiles (forked from holman's dotfiles)
 
 Your dotfiles are how you personalize your system. These are mine.
 
